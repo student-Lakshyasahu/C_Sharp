@@ -14,4 +14,30 @@
                  }
                  Console.WriteLine();
              }
-            
+          Q2  // Write a C# Sharp program that takes userid and password as input (string type).
+            //    After 3 unsuccessful attempts, the user will be rejected.
+              string userid;
+                     string password;
+                     Console.WriteLine("You have 3 chances to login otherwise you will be rejected");
+                     for(int i =1; i<=3; i++)
+                     {
+                         Console.WriteLine("Write your usedId");
+                         userid = Console.ReadLine();
+                         Console.WriteLine("Write your password");
+                         password = Console.ReadLine();
+                         if (userid == "Lakshya421" && password == "Lakshya#7987")
+                         {
+                             Console.WriteLine("You are Login");
+                             break;
+                         }
+                         else if(i == 3)
+                         {
+                             Console.WriteLine("You are rejected");
+                         }
+                         else
+                         {
+                             Console.WriteLine("Please try again!");
+                         }
+                    
+                     }
+                     
