@@ -13,3 +13,17 @@
                 }
 
              }
+             Console.WriteLine("The sum of " + num + " odd numbers is " + sum);
+//Q2. Write a program in C# Sharp to display a right angle triangle with an asterisk.
+
+Console.WriteLine("Enter the number you want to number of right angle traingle");
+int lines = int.Parse(Console.ReadLine());
+for (int i = 1; i <= lines; i++)
+{
+    for (int j = 1; j <= i; j++)
+    {
+        Console.Write("*");
+    }
+    Console.WriteLine();
+}
+
