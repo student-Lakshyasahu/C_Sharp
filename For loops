@@ -79,3 +79,13 @@ for (int i = 1; i <= lines; i++)
      star += 2;
      Console.WriteLine();
  }
+// Q6. Write a C# Sharp program to calculate the factorial of a given number.
+
+Console.WriteLine("Enter the number you want to find factorial");
+int num = int.Parse(Console.ReadLine());
+int facto = 1;
+for (int i = 1; i <= (num); i++)
+{
+    facto *= i;
+}
+Console.WriteLine(facto);
