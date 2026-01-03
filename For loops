@@ -41,3 +41,18 @@ for (int i = 1; i <= lines; i++)
      }
      Console.WriteLine();
  }
+
+ //Q4 Write a C# Sharp program to make such a pattern like a right angle triangle
+ //with the number increased by 1.
+ Console.WriteLine("Enter the number of line you want to print right angle traingle");
+ int lines = int.Parse(Console.ReadLine());
+ int sum = 0;
+ for (int i = 0; i < lines; i++)
+ {
+     for (int j = 0; j <= i; j++)
+     {
+         sum++;
+         Console.Write(sum + " ");
+     }
+     Console.WriteLine();
+ }
